@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "welcomePage_shouldLookGood_desktop 1024x800",
+    "startedAt" : 1544599926017,
+    "endedAt" : 1544599926017,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 2,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "1-welcomepage-shouldlookgood-desktop-1024x800",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}

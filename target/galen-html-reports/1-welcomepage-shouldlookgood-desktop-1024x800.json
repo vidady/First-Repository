@@ -1,0 +1,43 @@
+{
+  "testId" : "1-welcomepage-shouldlookgood-desktop-1024x800",
+  "name" : "welcomePage_shouldLookGood_desktop 1024x800",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check layout on desktop 1024x800 device",
+      "status" : "info",
+      "time" : 1544599926017,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Login box",
+        "objects" : [ {
+          "name" : "login-caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Work\\AUTOMATION_WORKSPACE\\galen\\resources\\specs\\loginPage.gspec",
+              "lineNumber" : 10
+            },
+            "name" : "height 20 to 35px",
+            "highlight" : [ "login-caption" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Work\\AUTOMATION_WORKSPACE\\galen\\resources\\specs\\loginPage.gspec",
+              "lineNumber" : 11
+            },
+            "name" : "text is \"Login\"",
+            "highlight" : [ "login-caption" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "login-caption" : {
+          "area" : [ 316, 194, 358, 33 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

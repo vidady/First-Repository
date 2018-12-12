@@ -1,0 +1,43 @@
+{
+  "testId" : "1-welcomepage-shouldlookgood-mobile-450x800",
+  "name" : "welcomePage_shouldLookGood_mobile 450x800",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check layout on mobile 450x800 device",
+      "status" : "info",
+      "time" : 1544599913967,
+      "includedTags" : [ "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Login box",
+        "objects" : [ {
+          "name" : "login-caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Work\\AUTOMATION_WORKSPACE\\galen\\resources\\specs\\loginPage.gspec",
+              "lineNumber" : 10
+            },
+            "name" : "height 20 to 35px",
+            "highlight" : [ "login-caption" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Work\\AUTOMATION_WORKSPACE\\galen\\resources\\specs\\loginPage.gspec",
+              "lineNumber" : 11
+            },
+            "name" : "text is \"Login\"",
+            "highlight" : [ "login-caption" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "login-caption" : {
+          "area" : [ 20, 236, 412, 33 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

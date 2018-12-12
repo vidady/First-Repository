@@ -1,0 +1,90 @@
+{
+  "server": "@hub-cloud.browserstack.com/wd/hub",
+  "user": "rajeshsahu1",
+  "key": "7ePhjni2oTLuj1zXmtVs",
+
+  "capabilities": [{
+        "Device":"desktop",
+        "os":"windows",
+        "os_version":"10",
+        "browser":"firefox"
+        "browser_version": "59.0.3",
+        "Resolution": "1280*746",
+        "browserstack.local": "false",
+        "browserstack.selenium_version": "3.5.2"
+      },
+      {
+          "Device":"desktop",
+          "os":"windows",
+          "os_version":"10",
+          "browser": "chrome",
+          "browser_version": "66.0",
+          "browserstack.local": "false",
+          "browserstack.selenium_version": "3.5.2"
+       },
+      {
+        "Device":"desktop",
+        "os":"windows",
+        "os_version":"10",
+        "browser": "internet explorer",
+        "browser_version": "11",
+        "Resolution" :"1280*746",
+        "browserstack.local": "false",
+        "browserstack.selenium_version": "3.5.2"
+      },
+      {
+        "Device":"desktop",
+        "os":"OS X",
+        "os_version":"High Sierra",
+        "browser":"Safari",
+        "browser_version" : "11.0",
+        "browserstack.local": "false",
+        "browserstack.selenium_version": "3.5.2"
+       },
+        {
+          "Device":"desktop",
+          "os":"OS X",
+          "os_version":"High Sierra",
+          "browser":"chrome",
+          "browser_version" : "66.0",
+          "browserstack.local": "false",
+          "browserstack.selenium_version": "3.5.2"
+        },
+        {
+          "Device":"desktop",
+          "os":"OS X",
+          "os_version":"High Sierra",
+          "browser":"firefox",
+          "browser_version" : "60.0 beta",
+          "browserstack.local": "false",
+          "browserstack.selenium_version": "3.5.2"
+        },
+        {
+          "Device":"mobile",
+          "os_version": "10.3",
+          "device": "iPhone 7",
+          "real_mobile": "true",
+          "browserstack.local": "false"
+        },
+        {
+          "Device":"tablet",
+          "os_version": "11.2",
+          "device": "iPad Pro",
+          "real_mobile": "true",
+          "browserstack.local": "false"
+        },
+        {
+          "Device":"mobile",
+          "os_version": "6.0",
+          "device": "Samsung Galaxy S7",
+          "real_mobile": "true",
+          "browserstack.local": "false"
+        },
+        {
+          "Device":"mobile",
+          "os_version": "7.1",
+          "device": "Samsung Galaxy Note 8",
+          "real_mobile": "true",
+          "browserstack.local": "false"
+        }]
+}

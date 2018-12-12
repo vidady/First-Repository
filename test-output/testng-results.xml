@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-12T07:31:47Z" name="Default suite" finished-at="2018-12-12T07:32:06Z" duration-ms="18869">
+    <groups>
+    </groups>
+    <test started-at="2018-12-12T07:31:47Z" name="Default test" finished-at="2018-12-12T07:32:06Z" duration-ms="18869">
+      <class name="galen.galen.Login">
+        <test-method is-config="true" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:31:47Z" name="initDriver" finished-at="2018-12-12T07:31:51Z" duration-ms="3847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@8ff5094]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="initReport(java.lang.reflect.Method)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:31:51Z" name="initReport" finished-at="2018-12-12T07:31:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void galen.galen.Login.welcomePage_shouldLookGood(galen.galen.GalenBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method signature="welcomePage_shouldLookGood(galen.galen.GalenBase$TestDevice)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:31:51Z" name="welcomePage_shouldLookGood" data-provider="devices" finished-at="2018-12-12T07:31:54Z" duration-ms="2407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile 450x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePage_shouldLookGood -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:31:54Z" name="quitDriver" finished-at="2018-12-12T07:31:54Z" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:31:54Z" name="initDriver" finished-at="2018-12-12T07:31:58Z" duration-ms="3412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@363f0ba0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="welcomePage_shouldLookGood(galen.galen.GalenBase$TestDevice)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:31:58Z" name="welcomePage_shouldLookGood" data-provider="devices" finished-at="2018-12-12T07:31:59Z" duration-ms="1777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tablet 750x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePage_shouldLookGood -->
+        <test-method is-config="true" signature="initReport(java.lang.reflect.Method)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:31:58Z" name="initReport" finished-at="2018-12-12T07:31:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void galen.galen.Login.welcomePage_shouldLookGood(galen.galen.GalenBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:31:59Z" name="quitDriver" finished-at="2018-12-12T07:32:00Z" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:32:00Z" name="initDriver" finished-at="2018-12-12T07:32:04Z" duration-ms="3531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@35fb22a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="welcomePage_shouldLookGood(galen.galen.GalenBase$TestDevice)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:32:04Z" name="welcomePage_shouldLookGood" data-provider="devices" finished-at="2018-12-12T07:32:06Z" duration-ms="1872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1024x800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePage_shouldLookGood -->
+        <test-method is-config="true" signature="initReport(java.lang.reflect.Method)[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:32:04Z" name="initReport" finished-at="2018-12-12T07:32:04Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void galen.galen.Login.welcomePage_shouldLookGood(galen.galen.GalenBase$TestDevice) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:galen.galen.Login@a1cdc6d]" started-at="2018-12-12T07:32:06Z" name="quitDriver" finished-at="2018-12-12T07:32:06Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- galen.galen.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

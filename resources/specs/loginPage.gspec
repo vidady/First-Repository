@@ -1,0 +1,12 @@
+
+@objects
+
+    login-caption       css #login-page h2
+
+
+
+= Login box =
+        login-caption:
+            height 20 to 35px
+            text is "Login"
+
